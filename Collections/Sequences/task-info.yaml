@@ -5,13 +5,13 @@ files:
   visible: true
   placeholders:
   - offset: 193
-    length: 6
+    length: 328
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 193
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       return customer
@@ -20,7 +20,7 @@ files:
                   .filter(Order::isDelivered)
                   .flatMap { it.products.asSequence() }
                   .maxBy(Product::price)
-  - offset: 393
+  - offset: 703
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -34,7 +34,7 @@ files:
                   .asSequence()
                   .flatMap(Customer::getOrderedProducts)
                   .count { it == product }
-  - offset: 466
+  - offset: 772
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -175,5 +175,5 @@ files:
         override fun toString() = name
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

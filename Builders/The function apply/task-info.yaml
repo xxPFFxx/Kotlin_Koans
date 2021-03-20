@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 44
-    length: 6
+    length: 19
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -68,5 +68,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

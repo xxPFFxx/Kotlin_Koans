@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 12
+    length: 49
     placeholder_text: class Person
     initial_state:
       length: 12
@@ -48,5 +48,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

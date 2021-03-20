@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 352
-    length: 10
+  - offset: 348
+    length: 72
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -17,7 +17,7 @@ files:
       val tr = TR()
               tr.init()
               children += tr
-  - offset: 437
+  - offset: 495
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -108,5 +108,5 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

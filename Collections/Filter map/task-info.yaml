@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 106
-    length: 6
+    length: 63
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -14,7 +14,7 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: customers.map { it.city }.toSet()
-  - offset: 223
+  - offset: 280
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -143,5 +143,5 @@ files:
             Tokyo to listOf(asuka)
     ).mapValues { it.value.map { name -> customers[name] } }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

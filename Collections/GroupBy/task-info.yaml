@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 133
-    length: 6
+    length: 29
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -123,5 +123,5 @@ files:
             Tokyo to listOf(asuka)
     ).mapValues { it.value.map { name -> customers[name] } }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
